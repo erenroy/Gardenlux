@@ -1,0 +1,386 @@
+
+
+
+
+        /* Writting the code to make the page responsive  */
+
+        /*** Header ***/
+        @media (max-width: 1000px) {
+            .head1inside {
+                width: 82%;
+                margin-left: 9%;
+            }
+
+            #learnmore {
+                width: 21%;
+            }
+        }
+
+        /*** Header ***/
+        @media (max-width: 700px) {
+            .head1 h1 {
+                margin-top: 20%;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .head1 h1 {
+                font-size: 2rem;
+            }
+
+            #animation {
+                font-size: 2rem;
+            }
+
+            .animation {
+                font-size: 2rem;
+            }
+
+            .head1inside p {
+                font-size: 0.7rem;
+            }
+
+            .homepage {
+                height: 450px;
+            }
+        }
+
+        #categoryimg {
+            border-radius: 12px;
+            margin-bottom: 10px;
+            height: 150px;
+        }
+
+        #propertyimg {
+            height: 225px;
+            width: 100%;
+        }
+
+        #ourteam {
+            height: 350px;
+            width: 100%;
+        }
+
+        /* Starting of catagory */
+        .category1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .catagory2 {
+            display: flex;
+        }
+
+        .catagory3 {
+            display: flex;
+        }
+
+        .catagoryfirst {
+            border: 15px solid rgb(201, 254, 255);
+            width: 280px;
+            height: 280px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 20px;
+        }
+
+        .catagoryfirst {
+            /* Define default styles */
+            transition: all 0.3s ease-in-out;
+            /* Smooth transition for animation */
+        }
+
+        .catagoryfirst:hover {
+            border: 15px solid rgb(70, 184, 255);
+            /* Orange border */
+            width: 280px;
+            height: 280px;
+            background-color: rgb(255, 255, 255);
+            /* White background */
+            margin-left: 20px;
+            transform: scale(1.05);
+            /* Slight scale increase on hover */
+        }
+
+        .catagorysecond {
+            /* Define default styles */
+            transition: all 0.3s ease-in-out;
+            /* Smooth transition for animation */
+        }
+
+        .catagorysecond:hover {
+            border: 15px solid rgb(70, 184, 255);
+            /* Orange border */
+            width: 280px;
+            height: 280px;
+            background-color: rgb(255, 255, 255);
+            /* White background */
+            margin-left: 20px;
+            transform: scale(1.05);
+            /* Slight scale increase on hover */
+        }
+
+        .catagorysecond {
+            border: 15px solid rgb(201, 254, 255);
+            width: 280px;
+            height: 280px;
+            background-color: rgb(255, 255, 255);
+            margin-left: 20px;
+        }
+
+        .catagoryfirst img {
+            width: 180px;
+            height: auto;
+            margin-left: 35px;
+            margin-top: 10px;
+            border-radius: 100px;
+        }
+
+        .catagoryfirst h2 {
+            margin-top: 6px;
+            font-size: 1rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+            text-align: center;
+        }
+
+        .catagoryfirst h3 {
+            margin-top: 6px;
+            font-size: 1rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(255, 130, 35);
+            text-align: center;
+        }
+
+        .catagorysecond img {
+            width: 180px;
+            height: auto;
+            margin-left: 35px;
+            margin-top: 10px;
+            border-radius: 100px;
+        }
+
+        .catagorysecond h2 {
+            margin-top: 6px;
+            font-size: 1rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black;
+            text-align: center;
+        }
+
+        .catagorysecond h3 {
+            margin-top: 6px;
+            font-size: 1rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(255, 130, 35);
+            text-align: center;
+        }
+
+        #signUp {
+            color: orange;
+        }
+
+        /* making caatagory */
+        @media (max-width: 1100px) {
+
+            .category1 {
+                display: block;
+                margin-left: 20%;
+            }
+
+            .catagory2 {
+                display: flex;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 900px) {
+
+            .category1 {
+                display: block;
+                margin-left: 15%;
+            }
+        }
+
+        @media (max-width: 750px) {
+
+            .category1 {
+                display: block;
+                margin-left: 7%;
+            }
+        }
+
+        @media (max-width: 650px) {
+
+            .category1 {
+                display: block;
+                margin-left: 2%;
+            }
+        }
+
+        @media (max-width: 550px) {
+            .catagory2 {
+                margin-left: 20%;
+                display: block;
+            }
+
+            .category1 {
+                display: block;
+                margin-left: -3%;
+            }
+
+            .catagory3 {
+                display: none;
+            }
+
+            .catagoryfirst {
+                margin-bottom: 20px;
+            }
+        }
+
+
+        @media (max-width: 420px) {
+            .catagory2 {
+                margin-left: 12%;
+                display: block;
+            }
+
+        }
+
+        @media (max-width: 370px) {
+            .catagory2 {
+                margin-left: 10%;
+                display: block;
+            }
+
+        }
+
+        @media (max-width: 650px) {
+
+            .animation {
+                font-size: 2rem;
+            }
+
+            #animation {
+                font-size: 2rem;
+            }
+
+            .head1 h1 {
+                font-size: 2rem;
+            }
+        }
+
+        @media (max-width: 500px) {
+
+            .animation {
+                font-size: 1.5rem;
+            }
+
+            #animation {
+                font-size: 1.5rem;
+            }
+
+            .head1 h1 {
+                font-size: 1.5rem;
+            }
+
+            #learnmore {
+                width: 36%;
+            }
+
+        }
+
+        #trtrt {
+            margin-left: 200px;
+            margin-right: -20px;
+        }
+
+        .exp-places-next-child1 {
+            width: 33%;
+            height: 250px;
+            margin-right: 1%;
+            background-image: url('img/contact/3.jpg');
+            border-radius: 5px;
+        }
+        .new-child{
+            background-image: url('img/contact/1.jpg');
+
+        }
+
+        .exp-places-next-child1-1 {
+            width: 33%;
+            height: 250px;
+            border-radius: 5px;
+            background-image: url('img/contact/2.jpg');
+        }
+        li {
+  list-style-type: none;
+}
+
+
+
+.our-cliento-priority{
+
+  background-image: url("img/infos/1.jpg");
+  background-size: cover;
+  display: flex;
+}
+
+  .contact1{
+    height: 450px;
+    width: 100%;
+    background-image: url("img/infos/17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact1 h1{
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    font-family: p'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .contact1 h2{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: p'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+  }
+
+  #moveBtn {
+    padding: 10px 20px;
+    background-color: #ffbb4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+margin-left: 45%;
+margin-top: 20px;
+  }
+
+  #moveBtn:hover {
+    background-color: #45a049;
+  }
+
+  #moveBtn.clicked {
+    transform: translateY(20px);
+  }
+
+  #signUp{
+    color: orange;
+}
+.bg-myback {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha (4th value) for transparency */
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+
+    color: #000000;
+}
+body{
+  background-image: url("img/1/c1.jpg");
+}
+.contact1 {
+    height: 335px;
+}
+
