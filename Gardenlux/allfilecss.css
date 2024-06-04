@@ -1,0 +1,249 @@
+.columns:last-child:not(:first-child) img{
+    float: right;
+    margin-top: 45px;
+}
+/* 
+.floating-form {
+    background-color: #f5f5dc; 
+    padding: 20px; 
+}
+.floating-form .button {
+    background-color: #f5f5dc; 
+}
+
+.floating-form .form {
+    background-color: #f5f5dc; 
+}
+
+.floating-form .wpcf7-form-control,
+.floating-form .wpcf7-submit {
+    background-color: #f5f5dc; 
+}
+.floating-form .close {
+    background: transparent;
+}
+.floating-form .title {
+    color: var(--all-button-color);
+}
+.floating-form input[type="submit"] {
+    transition: 0.5s;
+    background-color: var(--heading-color);
+} */
+.floating-form {
+    background-color: #e5f4e5; /* Soft Green */
+    padding: 20px; /* Adjust padding as necessary */
+}
+
+.floating-form .button {
+    background-color: #e5f4e5; /* Soft Green */
+}
+
+.floating-form .form {
+    background-color: #e5f4e5; /* Soft Green */
+}
+
+.floating-form .wpcf7-form-control,
+.floating-form .wpcf7-submit {
+    background-color: #e5f4e5; /* Soft Green */
+}
+
+.floating-form .close {
+    background: transparent;
+}
+
+.floating-form .title {
+    color: var(--all-button-color);
+}
+
+.floating-form input[type="submit"] {
+    transition: 0.5s;
+    background-color: var(--heading-color);
+}
+
+.columns:last-child:not(:first-child) img{
+    float: right;
+    margin-top: 45px;
+}
+/* 
+.floating-form {
+    background-color: #f5f5dc; 
+    padding: 20px; 
+}
+.floating-form .button {
+    background-color: #f5f5dc; 
+}
+
+.floating-form .form {
+    background-color: #f5f5dc; 
+}
+
+.floating-form .wpcf7-form-control,
+.floating-form .wpcf7-submit {
+    background-color: #f5f5dc; 
+}
+.floating-form .close {
+    background: transparent;
+}
+.floating-form .title {
+    color: var(--all-button-color);
+}
+.floating-form input[type="submit"] {
+    transition: 0.5s;
+    background-color: var(--heading-color);
+} */
+.floating-form {
+    background-color: #e5f4e5; /* Soft Green */
+    padding: 20px; /* Adjust padding as necessary */
+}
+
+.floating-form .button {
+    background-color: #e5f4e5; /* Soft Green */
+}
+
+.floating-form .form {
+    background-color: #e5f4e5; /* Soft Green */
+}
+
+.floating-form .wpcf7-form-control,
+.floating-form .wpcf7-submit {
+    background-color: #e5f4e5; /* Soft Green */
+}
+
+.floating-form .close {
+    background: transparent;
+}
+
+.floating-form .title {
+    color: var(--all-button-color);
+}
+
+.floating-form input[type="submit"] {
+    transition: 0.5s;
+    background-color: var(--heading-color);
+}
+
+.home_testimonial_sec {
+    padding: 40px; /* Add padding for spacing */
+    text-align: center; /* Center-align text */
+}
+
+.home_testimonial_sec h1 {
+    color: #333; /* Dark gray color for the heading */
+    font-size: 45px; /* Adjust font size */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+.image-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.columns:last-child:not(:first-child) img {
+    float: right;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+
+:root {
+	--heading-color: #4CAF50; /* Green for headings */
+    --all-text-color: #2196F3; /* Blue for general text */
+    --all-button-color: #E91E63; /* Pink for buttons */
+    --all-button-hover-color:  #E91E63; /* Darker pink for button hover */
+    --all-normal-text: #2196F3; /* Blue for normal text */
+   
+}
+body {
+	/* background-image: url('images/grass.jpg');
+    background-color: var(--background-color); */
+    color: var(--all-text-color); /* Or use specific text color classes as needed */
+}
+
+.nav ul li a {
+    color: #ffffff;
+}
+
+.nav ul#menu-top-main-menu li a:hover {
+    color:var(--all-button-hover-color);
+}
+
+.home_main_slider .inner_div .abs_div .titie_wrap h2 {
+    color: #ffffff;
+}
+	/* .home_main_slider .inner_div .abs_div .read_more {
+		background-color: var(--all-button-color);
+    } */
+	.home_main_slider .inner_div .abs_div .read_more:hover {
+		background-color: var(--all-button-hover-color);
+    }
+	.home_welcome_sec .title h3 {
+		color: var(--heading-color);
+}
+.home_welcome_sec .welcome_con p {
+	color: var(--all-normal-text);
+    }
+	.home_services_sec h3 {
+		color: var(--heading-color);
+    }
+
+	.service_col .inner_div .titie_div .inner {
+		color: #c6f4ec
+}
+.home_project_sec .project_col .inner_div .link_more a {
+       background-color:var(--heading-color);
+    }
+	.home_project_sec .project_col .inner_div .link_more a:hover {
+       background-color: var(--all-button-hover-color);
+    }
+	.footer .top_footer .footer_nav ul li.current-menu-item a {
+    color: var(--all-button-hover-color);
+}
+.contact_sec .link a {
+	background-color: var(--heading-color);
+}
+.contact_sec .link a:hover {
+	background-color: var(--all-button-hover-color);
+}
+.home_main_slider .inner_div .abs_div .read_more {
+    background-color: var(--all-button-color);
+}
+
+.floating-form .title span {
+    color: rgb(34, 139, 34);
+}
+
+.home_testimonial_sec .testimonial_col .inner_div .testimonial_con {
+    color: rgb(34, 139, 34);
+}
+.home_testimonial_sec .testimonial_col .inner_div .testimonial_name {
+    color: rgb(0, 0, 0);
+}
+
+.floating-form .title {
+    color: rgb(34, 139, 34);
+}
+.logo .tel {
+    color: var(--all-normal-text);
+}
+.nav ul li ul {
+    will-change: transform, opacity;
+    position: absolute;
+    top: 100%;
+    padding: 10px 20px;
+    background:  #ff71a0
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .nav ul li a {
+        color: #000000;
+    }
+}

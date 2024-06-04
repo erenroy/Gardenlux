@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Almoni-Tzar';
+    font-weight: 100;
+    font-style: normal;
+    src: url(../fonts/almoni-tzar-aaa-100.eot);
+    src: url(../fonts/almoni-tzar-aaa-100.eot#iefix) format('embedded-opentype'), url(../fonts/almoni-tzar-aaa-100.ttf) format('truetype'), url(../fonts/almoni-tzar-aaa-100.woff) format('woff')
+}
+@font-face {
+    font-family: 'Almoni-Tzar';
+    font-weight: 200;
+    font-style: normal;
+    src: url(../fonts/almoni-tzar-aaa-200.eot);
+    src: url(../fonts/almoni-tzar-aaa-200.eot#iefix) format('embedded-opentype'), url(../fonts/almoni-tzar-aaa-200.ttf) format('truetype'), url(../fonts/almoni-tzar-aaa-200.woff) format('woff')
+}
+@font-face {
+    font-family: 'Almoni-Tzar';
+    font-weight: 300;
+    font-style: normal;
+    src: url(../fonts/almoni-tzar-aaa-300.eot);
+    src: url(../fonts/almoni-tzar-aaa-300.eot#iefix) format('embedded-opentype'), url(../fonts/almoni-tzar-aaa-300.ttf) format('truetype'), url(../fonts/almoni-tzar-aaa-300.woff) format('woff')
+}
+@font-face {
+    font-family: 'Almoni-Tzar';
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/almoni-tzar-aaa-400.eot);
+    src: url(../fonts/almoni-tzar-aaa-400.eot#iefix) format('embedded-opentype'), url(../fonts/almoni-tzar-aaa-400.ttf) format('truetype'), url(../fonts/almoni-tzar-aaa-400.woff) format('woff')
+}
+@font-face {
+    font-family: 'Almoni-Tzar';
+    font-weight: 700;
+    font-style: normal;
+    src: url(../fonts/almoni-tzar-aaa-700.eot);
+    src: url(../fonts/almoni-tzar-aaa-700.eot#iefix) format('embedded-opentype'), url(../fonts/almoni-tzar-aaa-700.ttf) format('truetype'), url(../fonts/almoni-tzar-aaa-700.woff) format('woff')
+}
